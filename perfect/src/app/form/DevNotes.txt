@@ -1,0 +1,12 @@
+Import Reactiveforms Module in required module.
+Import formGroup, formControl in required component.
+create a new formGroup in OnInit.
+declare a new FormGroup varaiable.
+[formGroup]="registerForm" --> Bind the formGroup to the form element from html.
+Assign property to formControl -->      "sushFirstName": new FormControl(),
+formControlName = "sushFirstName" --> In html bind these to input fields.
+formControl has different parameters --> state (null) , validators
+
+
+
+
